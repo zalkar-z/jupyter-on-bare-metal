@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+DOMAIN=${1?ERROR: No domain name given}
+
+#sudo apt-get -y update
+#sudo apt-get -y install nginx
+
+sudo ufw allow 'Nginx Full'
+
+sudo echo "server {
+        server_name $DOMAIN;
+
+        location / {
+                proxy_pass         "http://127.0.0.1:8888";     
+   }
+}
+" >> /etc/nginx/sites-available/$DOMAIN
+
