@@ -1,9 +1,11 @@
+
+# cd ~/environments/jupyter-notebook
+
 ## Generate a Jupyter notebook configuration file
 jupyter notebook -y --generate-config
 
 ## Add the following lines to your config file.
 echo "c.NotebookApp.allow_origin = '*'
-c.NotebookApp.ip = '0.0.0.0'
-c.NotebookApp.open_browser = False
-c.NotebookApp.port = 8888
-c.NotebookApp.custom_display_url = 'https://$domain'" >> .jupyter/jupyter_notebook_config.py
+c.NotebookApp.ip = '0.0.0.0'" >> ~/.jupyter/jupyter_notebook_config.py
+
+jupyter notebook
