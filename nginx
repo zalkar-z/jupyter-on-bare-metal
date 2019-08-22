@@ -52,6 +52,15 @@ jupyter notebook -y --generate-config
 echo "c.NotebookApp.allow_origin = '*'
 c.NotebookApp.ip = '0.0.0.0'" >> ~/.jupyter/jupyter_notebook_config.py
 
+
+## Install Certbot
+sudo add-apt-repository -y ppa:certbot/certbot
+sudo apt-get update
+sudo apt-get -y install python-certbot-nginx
+
+sudo certbot --nginx -d  $DOMAIN
+
+
 jupyter notebook --allow-root
 
 # Restart Nginx
