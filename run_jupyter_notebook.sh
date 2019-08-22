@@ -28,10 +28,10 @@ sudo ln -s /etc/nginx/sites-available/$DOMAIN /etc/nginx/sites-enabled/
 
 sudo apt-get -y upgrade
 
-install pip package manager
+# install pip package manager
 sudo apt-get install -y python3-pip
 
-install packages for vit env setup
+# install packages for vit env setup
 sudo apt-get install build-essential libssl-dev libffi-dev python3-dev
 
 sudo apt-get install -y python3-venv
