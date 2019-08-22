@@ -11,7 +11,7 @@ sudo echo "server {
         server_name $DOMAIN;
 
         location / {
-                proxy_pass         "http://127.0.0.1:8888";     
+                proxy_pass         'http://127.0.0.1:8888';     
    }
 }
 " >> /etc/nginx/sites-available/$DOMAIN
