@@ -21,4 +21,4 @@ This repo provides several scripts to follow.
 
 ## Acknowledgments
 
-- [Tammy Chan](https://github.com/tchan2]
+[Tammy Chan](https://github.com/tchan2]
