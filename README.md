@@ -11,7 +11,10 @@ This repo provides several scripts to follow.
 ## Getting Started
 
 1. SSH to the server as "root".
-2. Run [create_sudo_user.sh](https://github.com/zalkar-z/packet-gpu/blob/master/create_sudo_user.sh) to create a "sudo" user.
+2. Paste `chmod +x ./create_sudo_user.sh` to be able to run the script in the following step.
+2. Run [create_sudo_user.sh](https://github.com/zalkar-z/packet-gpu/blob/master/create_sudo_user.sh) to create a "sudo" user. Example: `./create_sudo_user.sh your_name`.
+3. SSH as "sudo" user.
+
 
 To-Do:
 
