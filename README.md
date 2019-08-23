@@ -10,7 +10,8 @@ This repo provides several scripts to follow.
 
 ## Getting Started
 
-
+1. SSH to the server as "root".
+2. Run [run_jupyter_notebook.sh](https://github.com/zalkar-z/packet-gpu/blob/master/run_jupyter_notebook.sh) to create a "sudo" user.
 
 To-Do:
 
