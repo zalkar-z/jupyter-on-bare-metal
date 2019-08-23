@@ -16,9 +16,4 @@ This repo provides several scripts to follow.
 4. SSH as "sudo" user.
 5. Paste `chmod +x ./run_jupyter_notebook.sh` to be able to run the script.
 6. Run [run_jupyter_notebook.sh](https://github.com/zalkar-z/packet-gpu/blob/master/run_jupyter_notebook.sh) to create a brand-new Jupyter Notebook and access it through your domain name. Examples: `./run_jupyter_notebook.sh domain_name`
-
-To-Do:
-
-- [ ] Task#1
-- [ ] Task#2
-- [x] Task#3
+7. Now try to access the Jupyter Notebook through your domain name.
