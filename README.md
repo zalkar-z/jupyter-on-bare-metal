@@ -3,6 +3,15 @@ An example of running Jupyter Notebook on Packet's Ubuntu 16.04 LTS server using
 
 This repo provides several scripts to follow.
 
+## Prerequisites
+
+1. Make sure to have a Ubuntu 16.04 LTS server available with appropriate IPv4 address.
+2. Point your host/domain name to the server's IPv4 address. Using [no-ip](https://www.noip.com/) to get a hostname is suggested. 
+
+## Getting Started
+
+
+
 To-Do:
 
 - [ ] Task#1
