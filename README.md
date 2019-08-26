@@ -3,6 +3,10 @@ An example of running Jupyter Notebook on Packet's Ubuntu 16.04 LTS server using
 
 This repo provides several scripts to follow.
 
+## To-Do
+
+- [ ] Include details like "chmod +x, etc" in "Getting Started" section
+
 ## Prerequisites
 
 1. Make sure to have a Ubuntu 16.04 LTS server available with appropriate IPv4 address.
