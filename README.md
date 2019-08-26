@@ -5,7 +5,10 @@ This repo provides several scripts to follow.
 
 ## To-Do
 
-- [ ] Include details like "chmod +x, etc" in "Getting Started" section
+- [ ] Give live feedback when the script is running (check Tammy's repo for an example).
+- [ ] Pre-set the values for certbot to minize user's interaction with keyboard (check Tammy's repo for an example).
+- [ ] Minimize user's interaction from beginning to end.
+- [ ] Include details like "chmod +x, etc" in "Getting Started" section.
 - [ ] Why setting up the virt python env takes so long? (7 minutes according to Tammy)
 - [ ] Do you need a password for sudo user?
 
