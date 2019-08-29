@@ -9,3 +9,4 @@ if [ $? -eq 0 ]; then echo 'Homebrew installed successfully.'; else echo 'Homebr
 
 
 # 2 - Install Terraform
+brew install terraform
