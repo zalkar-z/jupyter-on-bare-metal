@@ -6,9 +6,15 @@ if ! [ -x "$(command -v brew)" ]; then
     echo -n '- Installing Homebrew ... '
     echo | /usr/bin/ruby -e "$(curl -fsSL $URL_BREW)" > /dev/null
     if [ $? -eq 0 ]; then echo 'Homebrew installed successfully.'; else echo 'Homebrew installation failed.'; fi
+else
+    echo ' - Homebrew already installed '
 fi
 
 # Install Terraform
 if ! [ -x "$(command -v terraform)" ]; then
-    brew install terraform
+    echo -n '- Installing Terraform ... '
+    echo | brew install terraform > /dev/null
+    if [ $? -eq 0 ]; then echo 'Terraform installed successfully.'; else echo 'Terraform installation failed.'; fi
+else
+    echo ' - Terraform already installed '
 fi
