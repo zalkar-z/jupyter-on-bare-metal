@@ -1,5 +1,7 @@
 # Bash script to automate Terraform installation on macOS
 
+# to silent errors - echo | command > /dev/null 2>&1
+
 # Install Homebrew
 if ! [ -x "$(command -v brew)" ]; then
     URL_BREW='https://raw.githubusercontent.com/Homebrew/install/master/install'
