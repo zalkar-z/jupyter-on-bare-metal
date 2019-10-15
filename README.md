@@ -10,13 +10,8 @@ This repo provides several scripts to follow.
 
 ## To-Do
 
-- [ ] Figure out the way to run Jupyter Notebook on background so it doesn't block the command line & update the scripts accordingly.
-- [ ] Give live feedback when the script is running (check Tammy's repo for an example).
-- [ ] Pre-set the values for certbot to minize user's interaction with keyboard (check Tammy's repo for an example).
-- [ ] Minimize user's interaction from beginning to end.
-- [ ] Include details like "chmod +x, etc" in "Getting Started" section.
-- [ ] Why setting up the virt python env takes so long? (7 minutes according to Tammy)
-- [ ] Do you need a password for sudo user?
+- [ ] Example#1
+- [x] Example#2
 
 
 
